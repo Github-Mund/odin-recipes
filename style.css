@@ -1,0 +1,10 @@
+body {
+    font-family: Verdana, sans-serif, monospace;
+}
+.recipe-links{
+    font-style: italic;
+    font-size: 20px;
+}
+.recipe-title{
+    font-size: 40px;
+}
