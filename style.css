@@ -5,31 +5,46 @@
 }
 
 body {
-    font-family: Verdana, sans-serif, monospace;
+    font-family: Georgia, 'Times New Roman', sans-serif, monospace;
+    background-color: hsl(354, 100%, 94%);
 }
 * {
     line-height: 1.5;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
-h1{
-    color: #dd5341;
+
+h1 {
+    color: hsl(7, 70%, 56%);
 }
-a{
-    text-decoration: none;
+
+a { 
+    font-size: 20px;
+    line-height: 2;
+    margin-top: 0;
+    font-weight: bold;
 }
-li{
+
+li {
     color:rgb(139, 0, 0);
 }
-.recipe-title{
+
+ul {
+    list-style: none;
+}
+
+.recipe-title {
     width: 600px;
     font-size: 40px;
     text-align: center;
-    border: 2px hidden black;
-    background-color: hsl(354, 100%, 94%);
     margin: auto;
+    height: 700px;
+    border-color: palevioletred;
+    border-style: ridge;
+    background-color: #FFFAFA;
 }
+
 .recipe-links{
-    font-style: italic;
-    font-size: 20px;
-    text-align: left;
+    text-align: center;
+    display: block;
+    padding: 10px;
 }
