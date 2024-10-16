@@ -1,10 +1,35 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Verdana, sans-serif, monospace;
+}
+* {
+    line-height: 1.5;
+    outline: 1px solid red;
+}
+h1{
+    color: #dd5341;
+}
+a{
+    text-decoration: none;
+}
+li{
+    color:rgb(139, 0, 0);
+}
+.recipe-title{
+    width: 600px;
+    font-size: 40px;
+    text-align: center;
+    border: 2px hidden black;
+    background-color: hsl(354, 100%, 94%);
+    margin: auto;
 }
 .recipe-links{
     font-style: italic;
     font-size: 20px;
-}
-.recipe-title{
-    font-size: 40px;
+    text-align: left;
 }
